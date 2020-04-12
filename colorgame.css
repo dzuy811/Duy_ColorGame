@@ -71,6 +71,8 @@ button {
 	transition: all 0.3s;
 	-wekkit-transition: background 0.3s;
 	-moz-transition: background 0.3s;
+	/*Hide the outline when we clicked*/
+	outline: none;
 }
 
 button:hover {
